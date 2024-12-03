@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    flex-direction: row;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #3534523f;
+}
+.Menu {
+    display:flex;
+    flex-direction: column;
+    background-color: #35345266;
+    color:aliceblue;
+    width: 200%;
+    height: 600px;
+    border: solid black 1px;
+    border-radius: 2.5px;
+}
+.Preview {
+    background-color: #8bbadd7b;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    width: 200%;
+    height: 600px;
+    border: solid black 1px;
+    border-radius: 2.5px;
+    font-size: small;
+}
+.Email {
+    background-color: #497fc166;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+    height: 600px;
+    border: solid black 1px;
+    border-radius: 2.5px;
+    font-size: medium;
+}
+ .One {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 400px;
+    width: 600px;
+}
+#One {
+    height: 40px;
+    width: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.Search {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 70px;
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    height: 15px;
+    width: 300px;
+    border: solid black 1px;
+    border-radius: 15px;
+}
+
+#Send {
+    background-color: rgb(79, 98, 210);
+    color: aliceblue;
+    }
+#Make {
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    margin-left: 105px;
+    margin-top: 75px;
+    background-color: #f4bf53;
+    border: solid #f4bf53 1px;
+    border-radius: 2.5px;
+}
+#email1 {
+    margin-top: 150px;
+}
+.Nav {
+    display: flex;
+    flex-direction: column;
+    margin-right: 35px;
+    margin-top: 40px;
+    line-height: 10px;
+}
+#Welcome {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 175px;
+    margin-top: 95px;
+    margin-left: 75px;
+    margin-right: 6px;
+    text-align: center;
+    background-color: 	#497fc19f;
+    color:black;
+    border:solid#497fc19f;
+    border-radius: 15px;
+}
+textarea {
+    margin-top: 25px;
+}
+span {
+    float: right
+
+}
+#Kenny {
+    background-color: #f6efe5;
+    border: solid #000000 1px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color:#497fc19f;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5), 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+button {
+    color:#000000;
+    background-color: #8bbadd7b;
+}
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column; /* Top-to-bottom layout for mobile */
+        font-size:larger;
+        font-weight: 500;
+    }
+
+}
